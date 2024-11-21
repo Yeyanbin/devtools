@@ -69,7 +69,7 @@ typings/
 .nuxt
 
 # Nuxt generate
-dist
+# dist
 
 # vuepress build output
 .vuepress/dist
@@ -89,8 +89,8 @@ components.d.ts
 
 # Project
 
-packages/chrome-extension/overlay/**/*
-packages/chrome-extension/client/**/*
+# packages/chrome-extension/overlay/**/*
+# packages/chrome-extension/client/**/*
 packages/firefox-extension/client/**/*
 packages/firefox-extension/overlay/**/*
 packages/electron/client/**/*
@@ -105,4 +105,3 @@ clones
 *.timestamp-*.*
 
 # turborepo
-.turbo
